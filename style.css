@@ -1,0 +1,95 @@
+/* body */
+
+body {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	font-color: black;
+}
+
+/* resets */
+
+html, body, h1, h2, h3, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* link behaviour */
+
+a:link { 
+	text-decoration: none; color: black;	
+}
+a:active { 
+	text-decoration: underline; color: red; 
+}
+a:visited { 
+	text-decoration: none; color: black;
+}
+a:hover { 
+	text-decoration: underline; color: red;
+}
+
+/* text behaviour */
+
+p {
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+
+/* navbar */
+
+.navbar {
+ 	background-color: white;
+ 	border: none;
+}
+
+.logo {
+	width: 160px;
+	padding: 10px 0 10px 0;
+}
+
+/* large pic */
+.largepic {
+	position: relative;
+	overflow: visible;
+}
+
+/* body */
+
+.firstrow {
+   margin-top: 20px;
+}
+.biopic {
+	margin: 2px 0 2px 0;
+	width: 800px;
+}
+
+.biopic2 {
+	padding: 0 0 10px 0;
+}
+
+.bio {
+	margin: 2px 0 2px 0;
+}
+
+/* footer */
+
+.footer {
+	width: 140px;
+	margin: 60px auto 0px auto;
+}
+
+.fb {
+	float: left;
+}
+
+.footerpic{
+	width:50px;
+	padding: 10px 10px 10px 10px;
+}
+
+.rights {
+	font-size: 10px;
+	width: 300px;
+	margin: 62px auto 10px auto;
+
+}
